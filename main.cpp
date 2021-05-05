@@ -5,7 +5,12 @@
 
 #include <iostream>
 #include "Input_Validation_Extended.h"
+
 using namespace std;
+
+/****************************************************
+Recursion is the process of defining a problem (or the solution to a problem) in terms of (a simpler version of) itself.
+*****************************************************/
 
 //Tower of Hanoi Function
 void towerOfHanoi(int n, char rod1, char rod2, char rod3)
@@ -23,7 +28,7 @@ void towerOfHanoi(int n, char rod1, char rod2, char rod3)
   towerOfHanoi(n - 1, rod3, rod2, rod1);  
 }
 
-//Factorial Function
+//Recursive Function
 int factorialR(int n)
 {
   if (n <= 1)
